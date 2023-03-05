@@ -96,12 +96,12 @@ class LDAR_travel:
         return 
     
     def get_site_nodes(self): 
-        site_nodes = [] 
+        self.site_nodes = [] 
         for sg in self.sites.geometry:
             sgx = sg.x
             sgy = sg.y 
             snode = ox.distance.nearest_nodes(self.G,sgx,sgy)
-            site_nodes.append(snode)
+            self.site_nodes.append(snode)
     
         return 
     
