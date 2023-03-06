@@ -1,4 +1,4 @@
-# Leak Inspection Geospatial Simulation Model
+# Leak Inspection Simulation Model
 
 ### Overview 
 This documnetiation is designed to be a technical document with relation to the example of simulating leak inspection program
